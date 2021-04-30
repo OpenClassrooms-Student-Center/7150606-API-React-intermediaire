@@ -1,6 +1,7 @@
 # OpenClassrooms - React intermédiaire
 
 Ce repo contient le code de l'API dont vous aurez besoin pour le cours OpenClassrooms ------.
+Il va de paire avec [le repository de la partie frontend](https://github.com/OpenClassrooms-Student-Center/7150606-React-intermediaire.git).
 
 ## Lancer l'API en local
 
