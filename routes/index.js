@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const getSurvey = require('../controllers/survey')
-const getFreelancers = require('../controllers/freelancers')
+const getFreelances = require('../controllers/freelances')
 const getFreelance = require('../controllers/freelance')
 const getResults = require('../controllers/results')
 
@@ -35,7 +35,7 @@ router.get('/results', function (req, res) {
 })
 
 router.get('/freelances', function (req, res, next) {
-	const freelancersList = getFreelancers()
+	const freelancersList = getFreelances()
 	res.send({ freelancersList })
 })
 

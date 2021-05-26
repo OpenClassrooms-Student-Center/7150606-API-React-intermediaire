@@ -1,4 +1,4 @@
-const freelancers = [
+const freelances = [
 	{
 		id: '1',
 		name: 'Julien Brun',
@@ -112,4 +112,4 @@ const freelancers = [
 	
 ]
 
-module.exports = freelancers
+module.exports = freelances
