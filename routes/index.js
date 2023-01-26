@@ -36,7 +36,7 @@ router.get('/results', function (req, res) {
 
 router.get('/freelances', function (req, res, next) {
 	const freelancersList = getFreelances()
-	res.send({ freelancersList })
+	res.send(freelancersList)
 })
 
 
