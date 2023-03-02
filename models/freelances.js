@@ -41,7 +41,7 @@ const freelances = [
 		location: 'Lille',
 		available: false,
 		tjm: 650,
-		jobType:"designer"
+		jobType:"design"
 	},
 	{
 		id: '5',
@@ -74,7 +74,7 @@ const freelances = [
 		location: 'Paris',
 		available: true,
 		tjm: 480,
-		jobType:"designer"
+		jobType:"design"
 	},
 	{
 		id: '8',
@@ -118,7 +118,7 @@ const freelances = [
 		location: 'Rennes',
 		available: false,
 		tjm: 600,
-		jobType:"frontend"
+		jobType:"seo"
 	},
 	{
 		id: '12',
@@ -131,6 +131,28 @@ const freelances = [
 		tjm: 500,
 		jobType:"fulstack"
 	},	
+	{
+		id: '13',
+		name: 'Léa Lefebvre',
+		job: 'Responsable SEO',
+		picture: 'http://localhost:8000/images/10.jpeg',
+		skills: ['SEO'],
+		location: 'Lyon',
+		available: true,
+		tjm: 500,
+		jobType:"seo"
+	},
+	{
+		id: '14',
+		name: 'Léa Lefebvre',
+		job: 'Designer',
+		picture: 'http://localhost:8000/images/10.jpeg',
+		skills: ['SEO'],
+		location: 'Lyon',
+		available: true,
+		tjm: 500,
+		jobType:"design"
+	}
 ]
 
 module.exports = freelances
