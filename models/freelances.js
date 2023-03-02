@@ -7,7 +7,8 @@ const freelances = [
 		skills: ['React Native'],
 		location: 'Lyon',
 		available: true,
-		tjm: 500
+		tjm: 500,
+		jobType:"mobile"
 	},
 	{
 		id: '2',
@@ -17,7 +18,8 @@ const freelances = [
 		skills: ['Node JS', 'Vue.js', 'React', 'AWS'],
 		location: 'Paris',
 		available: false,
-		tjm: 620
+		tjm: 620,
+		jobType:"fulstack"
 	},
 	{
 		id: '3',
@@ -27,7 +29,8 @@ const freelances = [
 		skills: ['React', 'Gatsby', 'Next.js'],
 		location: 'Bordeaux',
 		available: true,
-		tjm: 520
+		tjm: 520,
+		jobType:"frontend"
 	},
 	{
 		id: '4',
@@ -37,7 +40,8 @@ const freelances = [
 		skills: ['Figma', 'Webflow'],
 		location: 'Lille',
 		available: false,
-		tjm: 650
+		tjm: 650,
+		jobType:"designer"
 	},
 	{
 		id: '5',
@@ -47,7 +51,8 @@ const freelances = [
 		skills: ['IOS', 'Android'],
 		location: 'Lyon',
 		available: false,
-		tjm: 450
+		tjm: 450,
+		jobType:"mobile"
 	},
 	{
 		id: '6',
@@ -57,7 +62,8 @@ const freelances = [
 		skills: ['Python', 'Django', 'Docker'],
 		location: 'Paris',
 		available: true,
-		tjm: 510
+		tjm: 510,
+		jobType:"backend"
 	},
 	{
 		id: '7',
@@ -67,7 +73,8 @@ const freelances = [
 		skills: ['Sketch', 'Illustrator'],
 		location: 'Paris',
 		available: true,
-		tjm: 480
+		tjm: 480,
+		jobType:"designer"
 	},
 	{
 		id: '8',
@@ -77,7 +84,8 @@ const freelances = [
 		skills: ['SEO', 'Javascript Vanilla'],
 		location: 'Toulouse',
 		available: false,
-		tjm: 560
+		tjm: 560,
+		jobType:"frontend"
 	},
 	{
 		id: '9',
@@ -87,7 +95,8 @@ const freelances = [
 		skills: ['Android', 'React Native'],
 		location: 'Bayonne',
 		available: true,
-		tjm: 630
+		tjm: 630,
+		jobType:"mobile"
 	},
 	{
 		id: '10',
@@ -97,7 +106,8 @@ const freelances = [
 		skills: ['Node.js', 'Express', 'Docker'],
 		location: 'Paris',
 		available: false,
-		tjm: 400
+		tjm: 400,
+		jobType:"backend"
 	},
 	{
 		id: '11',
@@ -107,9 +117,20 @@ const freelances = [
 		skills: ['SEO'],
 		location: 'Rennes',
 		available: false,
-		tjm: 600
+		tjm: 600,
+		jobType:"frontend"
 	},
-	
+	{
+		id: '12',
+		name: 'Léa Lefebvre',
+		job: 'Développeuse fullstack',
+		picture: 'http://localhost:8000/images/10.jpeg',
+		skills: ['Node.js', 'Express', 'React'],
+		location: 'Lyon',
+		available: true,
+		tjm: 500,
+		jobType:"fulstack"
+	},	
 ]
 
 module.exports = freelances
