@@ -30,13 +30,13 @@ router.get('/results', function (req, res) {
 	if (!resultsData) {
 		res.status(400).send('Not found.')
 	} else {
-	res.send({ resultsData })
+	res.send(resultsData)
 	}
 })
 
 router.get('/freelances', function (req, res, next) {
 	const freelancersList = getFreelances()
-	res.send({ freelancersList })
+	res.send(freelancersList)
 })
 
 
