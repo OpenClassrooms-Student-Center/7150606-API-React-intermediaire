@@ -30,7 +30,7 @@ router.get('/results', function (req, res) {
 	if (!resultsData) {
 		res.status(400).send('Not found.')
 	} else {
-	res.send({ resultsData })
+	res.send(resultsData)
 	}
 })
 
