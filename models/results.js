@@ -6,12 +6,12 @@ const jobAnswersData = {
 	mobile: ['a6']
 }
 
-const jobsDefinitionData = {
-	seo: `Le SEO est en charge du référencement web d'une page`,
-	frontend: `Le développeur ou la développeuse frontend se charge de l'interface : interactions avec l'utilisateur, style, etc.`,
-	design: `La personne en charge du design va devoir préparer les maquettes du site`,
-	backend: `Le backend consiste en la partie émergée de l'iceberg : ce qui permet de faire tourner une application mais qui n'est pas visible par l'utilisateur`,
-	mobile: `Les développeurs mobile conçoivent des applications mobiles en natif (et non simplement en JavaScript)`
+const jobsDefinitionData = { 
+	seo: `SEO is in charge of the web referencing of a page`,
+	frontend: `The frontend developer takes care of the interface: interactions with the user, styling, etc.`,
+	design: `The person in charge of the design will have to prepare the models of the site`,
+	backend: `The backend consists of the tip of the iceberg: what makes it possible to run an application but which is not visible to the user`,
+	mobile: `Mobile developers build mobile apps natively (not just JavaScript)`
 }
 
 module.exports = { jobAnswersData, jobsDefinitionData }
