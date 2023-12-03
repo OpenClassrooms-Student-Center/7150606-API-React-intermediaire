@@ -21,7 +21,7 @@ Une fois lancée, cette API met plusieurs routes à votre disposition :
 `GET /freelances`
 
 - La route pour avoir le détail d'un profil de freelance :
-`GET /profile/?id={id}`
+`GET /freelance/?id={id}`
 
 - La route pour avoir le questionnaire :
 `GET /survey/`
